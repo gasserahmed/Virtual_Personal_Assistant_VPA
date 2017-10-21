@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vpa_main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vpa.MainActivity" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:text="@string/events"
+        android:textColor="#d66565"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button3"
+        android:background="@drawable/button"
+        android:text="@string/wallet"
+        android:textColor="#6c9d33"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button"
+        android:onClick="openMemo"
+        android:text="@string/memo"
+        android:textColor="#853ED7"
+        android:typeface="serif" />
+
+</RelativeLayout>

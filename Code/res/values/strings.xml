@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VPA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="memo">Memo</string>
+    <string name="events">Events</string>
+    <string name="wallet">Wallet</string>
+    <string name="title_activity_memo">Memo</string>
+    <string name="action_memo_add">Add Memo</string>
+    <string name="title_activity_new_memo">New Memo</string>
+    <string name="action_memo_save">Save Memo</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="no_notes">Empty Memo</string>
+    <string name="menu_clear">Clear Memo</string>
+    <string name="clear_all">Clear All</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_memo_cancel">Cancel</string>
+    <string name="memo_lock">Lock Memo</string>
+    <string name="memo_hint">Write your memo here</string>
+    <string name="memo_edit">Edit Memo</string>
+    <string name="memo_font_color">Font Color</string>
+    <string name="color_white">White</string>
+    <string name="lock_flag">0</string>
+    <string name="pin_code">PIN Lock</string>
+    <string name="enter_new_pin_code">Enter new PIN</string>
+    <string name="set">Set</string>
+    <string name="enter_current_pin_code">Enter current PIN</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="first_time_pincode">Enter PIN to be used\n for locked memos</string>
+
+</resources>
